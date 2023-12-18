@@ -7,7 +7,9 @@ Go to https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 Find Java SE 8. and select Jave SE 8 (8u211 and later), find jdk-8u333-linux-x64.tar.gz and click download
 
 In the Centos 7 VM go to your home directory>> downloads and find jdk-8u333-linux-x64.tar.gz that you have downloaded
+```
 cd ~/Downloads
-
+```
 Then move the file to your home directory
-mv ~/Downloads/jdk-8u333-linux-x64.tar.gz ~
+```mv ~/Downloads/jdk-8u333-linux-x64.tar.gz ~
+```
