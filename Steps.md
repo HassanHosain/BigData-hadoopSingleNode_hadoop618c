@@ -230,14 +230,15 @@ hdfs dfs -cat /user/hadoop/output/part-r-00000
 ```
 ![image](https://github.com/HassanHosain/BigData-hadoopSingleNode/assets/77096784/cd4dca77-240c-47f3-a3a5-1bf89604a67f)
 
-#Reflection on setting up a single node Hadoop cluster
+# Reflection on setting up a single node Hadoop cluster
 
 It was a fascinating experience to set up a Single Node Hadoop system and learn about distributed computing and big data processing. Even though the main goal was to learn more about Hadoop's complexities, the process also revealed several difficulties and new perspectives that improved my comprehension of the system's design, problems, and possible solutions.
-##Recognizing the Need
+
+## Recognizing the Need
 Knowing why Hadoop was necessary in the first place was essential before beginning any setup. In today's digital age, data is growing at an exponential rate, making traditional data processing methods inadequate. Hadoop offered a scalable solution with its distributed processing and storage capabilities. One way to get a peek into this world and create the groundwork for larger distributed systems would be to set up a Single Node Hadoop.
-##Setup and Configuration at First
+## Setup and Configuration at First
 First, the Hadoop distribution was downloaded and the environment variables were set up. Although the first stages appeared simple, there were several subtleties that emerged during the configuration stage. Java and other requirements needed to be installed and set correctly, and this was crucial. Because skipping a stage could cause more serious problems down the line, this method required extreme attention to detail.
-##Encountered Problems and Challenges
+## Encountered Problems and Challenges
  ** Version Compatibility:** Ensuring version compatibility between Hadoop and other components, such as Java, was one of the initial issues faced. It is crucial to carefully check compatibility matrix because an incompatible version may cause unforeseen issues. What I did was to go back to lecture slides and install the Java JDK accordingly and follow the steps accordingly to update the appropriate JDK
 
  ** Configuration Issues: ** It is crucial to use proper parameters especially during the configuration of the xml files i.e. core-site.xml, hdfs-site.xml, mapred-site.xml, yarn-site.xml Misconfigurations, including wrong parameter values or file paths, frequently resulted in failures that needed a lot of troubleshooting. 
@@ -248,7 +249,7 @@ This section, was a bit difficult as the slides and the videos was based on a mu
 
 ** Data Node and Name Node Understanding Issues:** While in the lectures we were guided into constructing the multi-node cluster, when creating a single node cluster there was some confusion that arises as certain steps are not required like setting up a static ip for multiple nodes.
 
-##Learning and Insights:
+## Learning and Insights:
 **Importance of Documentation:** As the setup process progressed, it became clear how important comprehensive documentation was. Keeping thorough documentation of setups, modifications, and troubleshooting procedures aided in the prompt resolution of problems and proved to be an invaluable resource for subsequent undertakings.
 
 **Appreciation for Distributed Systems:** While configuring a Single Node Hadoop revealed details about the architecture of the system, it also brought to light the difficulties that come with distributed systems. Larger clusters present greater issues for fault tolerance, performance optimization, and data management across several nodes.
@@ -256,7 +257,7 @@ This section, was a bit difficult as the slides and the videos was based on a mu
 **Community Support:** Making use of community resources, documentation, and online forums was really helpful. Interacting with the Hadoop community helped solve complex issues and promoted group problem-solving and learning. Some of the resources that help me was https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
 and https://www.tecmint.com/install-hadoop-single-node-on-centos-7/. This is in addition to the videos and slides from the lecture Videos of Dr Foo.
 
-##In summary
+## In summary
 Beyond only technical expertise, setting up a Single Node Hadoop system was a satisfying experience. It provided a comprehensive grasp of data management issues, distributed computing concepts, and system optimizations. Even though there were many difficulties along the way.
 
 This is a good experience for me as with the ever-growing amounts of data handled by companies /organizations, what I learn is that it is very beneficial to create multi parallel processing to assist more efficient process of data.
