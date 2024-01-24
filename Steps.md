@@ -20,7 +20,7 @@ tar -xzf ~/jdk-8u333-linux-x64.tar.gz
 ```
 5) Install the unzipper tar file
 ```
-sudo alternatives --install /usr/bin/java java /home/hadoop/jdk1.8.0_333
+sudo alternatives --install /usr/bin/java java /home/hadoop/jdk1.8.0_333/bin/java 1
 ```
 6) Run sudo alternatives and select the jdk1.8.0_333
 ```
